@@ -1,0 +1,9 @@
+iverilog -o comb1.out comb1_tb.v
+vvp comb1.out
+gtkwave comb1.vcd
+
+
+GTKwave:
+1. Select comb1_tb form SST
+2. Select all from Type|signal then click Append
+3. Change dataformat to Binary or ASCII or Hex or so many...
