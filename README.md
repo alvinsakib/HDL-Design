@@ -37,7 +37,7 @@ Use **Non Blocking Assignment** for a **Sequential Circuit**.
   ```bash
   gtkwave decode.vcd
   ```
-## :joystick: Now we work on `ALU_test` folders. And See visualisations
+## :joystick: Now we work on `ALU_test` folders. And See the visualisations - for this you need to use dual boot `Ubuntu`.
 - RTL Timing Diagram
   ```bash
   iverilog -o ALU.vvp ALU_ADD_SUB_Nbit.v ALU_SHL_Nbit.v ALU.v ALU_tb.v
